@@ -34,9 +34,9 @@ def tendis_wasm_example_repositories():
     maybe(
         http_archive,
         name = "com_wasmedge",
-        sha256 = "ee1b5ca9731fff53d28897b776e43ea7f0b443812e680d6fddc9da5a1b39cc51",
+        sha256 = "770855526a210e54fdbeb5398e0c40d0c294edb60b59ecaa76a92a9c8820b01a",
         strip_prefix = "",
-        url = "https://github.com/hydai/debug_wasm_test/releases/download/0.0.1/WasmEdge-0.14.1-267-g7de287c9-Darwin.tar.gz",
+        url = "https://github.com/hydai/debug_wasm_test/releases/download/0.0.1/WasmEdge-0.14.1-267-ge1417fde-Darwin.tar.gz",
         build_file = "//bazel:wasmedge.BUILD",  # 指定自定义的 BUILD 文件
     )
 
